@@ -1,7 +1,6 @@
-//import * as React from 'react'
 import React, {useState, useEffect} from 'react'
 import Select from 'react-select';
-import {ValueType, OptionsType} from "react-select/lib/types";
+import {ValueType, OptionsType} from "react-select";
 
 type OptionType = {
   value: string,
